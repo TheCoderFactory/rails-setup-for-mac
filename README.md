@@ -24,7 +24,7 @@ Hopefully you have a recent version of Mac OSX installed.
 
 04. Install HomeBrew
     ```
-    ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     ```
 
 05. When that finishes, run `brew doctor`
