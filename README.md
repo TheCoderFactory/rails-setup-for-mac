@@ -2,7 +2,7 @@
 
 Hopefully you have a recent version of Mac OSX installed.
 
-01. If you have Mavericks you can install Command Line Tools using this command. Choose to install and follow the prompts.
+01. If you have Mavericks (10.9) or Yosemite (10.10), you can install Command Line Tools using this command. Choose to install and follow the prompts.
 
   In your terminal, type `xcode-select --install`
 
