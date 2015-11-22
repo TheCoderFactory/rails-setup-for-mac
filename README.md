@@ -41,14 +41,14 @@ Hopefully you have a recent version of Mac OSX installed.
 
 08. Install the latest Ruby by typing this in your terminal:
     ```
-    rvm install 2.2.2
+    rvm install 2.2.3
     ```
 
 09. Install Rails
 
   In your terminal type:
     ```
-    rvm use ruby-2.2.2@rails-424 --create
+    rvm use ruby-2.2.3@rails-424 --create
     ```
 
 10. Now install the latest Rails:
