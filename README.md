@@ -48,7 +48,7 @@ Hopefully you have a recent version of Mac OSX installed.
 
   In your terminal type:
     ```
-    rvm use ruby-2.2.3@rails-424 --create
+    rvm use ruby-2.2.3@rails-425 --create
     ```
 
 10. Now install the latest Rails:
@@ -56,11 +56,11 @@ Hopefully you have a recent version of Mac OSX installed.
     gem install rails --no-ri --no-rdoc
     ```
 
-  When it's finished, check the version with `rails -v`. It should be 4.2.4
+  When it's finished, check the version with `rails -v`. It should be 4.2.5
 
 11. Now set this as the default gemset:
     ```
-    rvm use ruby-2.2.2@rails-424 --default
+    rvm use ruby-2.2.3@rails-425 --default
     ```
 
 You're done!
