@@ -56,7 +56,7 @@ Hopefully you have a recent version of Mac OSX installed.
     gem install rails --version=5.0.0 --no-ri --no-rdoc
     ```
 
-  When it's finished, check the version with `rails -v`. It should be 5.0.0.rc2
+  When it's finished, check the version with `rails -v`. It should be 5.0.0
 
 11. Now set this as the default gemset:
     ```
