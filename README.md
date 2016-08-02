@@ -48,19 +48,19 @@ Hopefully you have a recent version of Mac OSX installed.
 
   In your terminal type:
     ```
-    rvm use ruby-2.3.1@rails500rc2 --create
+    rvm use ruby-2.3.1@rails500 --create
     ```
 
 10. Now install the latest Rails:
     ```
-    gem install rails --version=5.0.0.rc2 --no-ri --no-rdoc
+    gem install rails --version=5.0.0 --no-ri --no-rdoc
     ```
 
   When it's finished, check the version with `rails -v`. It should be 5.0.0.rc2
 
 11. Now set this as the default gemset:
     ```
-    rvm use ruby-2.3.1@rails500rc2 --default
+    rvm use ruby-2.3.1@rails500 --default
     ```
 
 You're done!
