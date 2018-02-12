@@ -1,6 +1,22 @@
 # Install Rails on Mac
 
-Hopefully you have a recent version of Mac OSX installed.
+These instructions will work if you have a recent version of Mac OSX installed (Yosemite or later).
+
+Open your terminal (Cmd + Space, type 'term' and hit enter)
+
+Copy each of the commands below into the terminal and hit enter. You need to wait for each command to finish running before doing the next.
+
+You will know a command has finished running because you see the `$` (the prompt).
+
+You will be asked for your computer password during some of the steps below so keep an eye on the installation processes. When you type your password, it may look like nothing is happening — but it is :)
+
+The tools you are installing are:
+
+1. Homebrew — a package manager for Mac. This makes it easy to download, install and update code libraries which you will do regularly as a developer.
+2. RVM (Ruby Version Manager) — is a tool for managing different versions of Ruby and Rails on your computer. This is useful as new versions come out over time and you want to be able to access new and old versions.
+3. Ruby — this is the main Ruby interpreter. You're downloading the latest stable version: 2.4.3
+4. Rails — lastly you download and install the Rails gems. This gives you the ability to create Rails applications.
+
 
 01. Install HomeBrew
     ```
