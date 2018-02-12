@@ -2,65 +2,45 @@
 
 Hopefully you have a recent version of Mac OSX installed.
 
-01. If you have Mavericks (10.9) or Yosemite (10.10), you can install Command Line Tools using this command. Choose to install and follow the prompts.
-
-  In your terminal, type `xcode-select --install`
-
-02. If you have an earlier version of OSX, you will probably need to install Command Line Tools by downloading it from the Apple Developer Downloads site.
-
-  Once you're registered and signed in, you can search for Command Line Tools and download/install the latest version for your OSX version.
-
-03. Check that Command Line Tools have installed
-
-  In your terminal, type `gcc --version`
-
-  You should see a similar output to this:
-    ```
-    Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
-    Apple LLVM version 5.1 (clang-503.0.40) (based on LLVM 3.4svn)
-    Target: x86_64-apple-darwin13.2.0
-    Thread model: posix
-    ```
-
-04. Install HomeBrew
+01. Install HomeBrew
     ```
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     ```
 
-05. When that finishes, run `brew doctor`
+02. When that finishes, run `brew doctor`
 
-06. Install RVM by copying this into your terminal:
+03. Install RVM by copying this into your terminal:
     ```
     \curl -sSL https://get.rvm.io | bash -s stable
     ```
 
-07. Copy the following into the terminal:
+04. Copy the following into the terminal:
     ```
     source ~/.rvm/scripts/rvm
     ```
 
-08. Install the latest Ruby by typing this in your terminal:
+05. Install the latest Ruby by typing this in your terminal:
     ```
-    rvm install 2.3.1
+    rvm install 2.4.3
     ```
 
-09. Install Rails
+06. Install Rails
 
   In your terminal type:
     ```
-    rvm use ruby-2.3.1@rails500 --create
+    rvm use ruby-2.4.3@rails514 --create
     ```
 
-10. Now install the latest Rails:
+07. Now install the latest Rails:
     ```
-    gem install rails --version=5.0.0 --no-ri --no-rdoc
+    gem install rails --version=5.1.4 --no-ri --no-rdoc
     ```
 
-  When it's finished, check the version with `rails -v`. It should be 5.0.0
+  When it's finished, check the version with `rails -v`. It should be 5.1.4
 
-11. Now set this as the default gemset:
+08. Now set this as the default gemset:
     ```
-    rvm use ruby-2.3.1@rails500 --default
+    rvm use ruby-2.4.3@rails14 --default
     ```
 
 You're done!
